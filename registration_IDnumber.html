@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>registration</title>
+</head>
+<body bgcolor="pink">
+	<h style="color: blueviolet;"><center><u>REGISTRATION FORM</u></center></h><br>
+	<form action="/l.php" target="_blank" method="get">
+		<center><label>First name:</label>
+		<input type="text" name="f"
+placeholder="enter the first name" required></center><br>
+<center><label>Last name:</label>
+<input type="text" name="l"
+placeholder="enter the last name" required></center><br>
+
+<fieldset>
+	<center>
+<legend align="center">Gender</legend>F<input type="radio" name="f1">M<input type="radio" name="m">
+</center>
+</fieldset>
+<label>DOB:</label><input type="date" name="d"><br>
+<label>Age:</label><input type="number" name="a"><br>
+<label>E-mail id:</label><input type="email" name="e"><br>
+<label>favorite color:</label><input type="color" name="c"><br>
+<label>phone number:</label><input type="tel" name="t"><br>
+<label>Address:</label>
+<textarea>
+</textarea><br>
+<label>year:</label>
+<select name="drop">
+
+<optgroup label="institute">
+	<option>RGUKT SKLM{E1,E2,E3,E4}</option>
+	<option>RGUKT Ongole{E1,E2,E3,E4}</option>
+	<option>RGUKT Nuzvid{E1,E2,E3,E4}</option>
+	<option>RGUKT RK Valley{E1,E2,E3,E4}</option>
+</optgroup>
+</select><br>
+eng<input type="checkbox" name="c">physics<input type="checkbox" name="c">maths<input type="checkbox" name="c"><br>
+<label>username:</label><input type="text" name="n" ><br>
+<label>Password:</label>
+	<input id="pass" type="password" name="p" placeholder="enter password "><br>
+<label>confirm Password:</label>
+	<input id="pass" type="password" name="p" placeholder="enter password "><br>
+	<label>security question:</label>
+<select name="security" placeholder="select">
+	<option>choose</option>
+		<option>name</option>
+	<option>dob</option>
+	<option>password</option>
+	<option>phno</option>
+</select><br>
+<label>security answer:</label>
+<select name="ans">
+	<option>enter</option>
+		<option>lalli</option>
+	<option>15-08-2001</option>
+	<option>cse</option>
+	<option>5678</option>
+</select><br>
+<label>image:</label><input type="file" accept="video/image" name="f" multiple><br>
+
+<center><input type="reset" value="reset"
+name="k"></center>
+
+
+<center><input type="submit" name="S"></center></form>
+
+</body>
+</html>
